@@ -11,6 +11,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: no
 - 😄 Pronouns: it
 - ⚡ Fun fact: no
--->
-my stats:
+
 ![your github stats](https://github-readme-stats.vercel.app/api?username=cy03071&show_icon=true&theme=tokyonight)
