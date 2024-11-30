@@ -1,11 +1,11 @@
 import pandas as pd
 
 #step1:Create a DataFrame
-data = (
+data = {
     'Name':['Alice','Bob','Charlie'],
     'Age':[25,30,35],
     'City':['Neew York','Los Angeles','Chaicago']
-)
+}
 
 df = pd.DataFrame(data)
 
@@ -15,7 +15,7 @@ print(df)
 
 #step3:Access specific columns
 print("\nAccess the 'Name' column:")
-print(df.('Name'))
+print(df('Name'))
 
 #step4: Access specific rows using iloc
 print("\nAccess the second row using iloc:")
