@@ -34,5 +34,3 @@ print(filtered_df)
 #step7: Calulate the average salary
 average_salary = df ('Salary').mean()
 print(f"\nAverage Salary: {average_salary}")
-
-
