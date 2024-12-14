@@ -6,9 +6,20 @@ Personal Expense Tracker
       4.View Summary
       5.Save and Exit
 """)
+import pandas as pd
+date = {
+      'date': [],  
+    'category': [],                 
+    'amount': [] ,
+    'type': []
+     
+
+}
 choice = input("Enter your choice: ")
 while choice != "5":
     if choice == "1":
+        
+      
         print("Add TRansaction")
 
 
