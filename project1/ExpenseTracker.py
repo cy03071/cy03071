@@ -18,20 +18,10 @@ date = {
 choice = input("Enter your choice: ")
 while choice != "5":
     if choice == "1":
-        
-      
-        print("Add TRansaction")
+          print("""
 
-
-        print("""
-Personal Expense Tracker
-      1.Add Transaction
-      2.Edit Transaction
-      3.Delect Transaction
-      4.View Summary
-      5.Save and Exit
 """)
-        choice = input("Enter your choice: ")
+          choice = input("Enter your choice: ")
     elif choice == "2":
           print("Edit Transaction")
           print("""
