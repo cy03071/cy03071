@@ -15,10 +15,13 @@ date = {
      
 
 }
+df = pd.DataFrame(date)
 choice = input("Enter your choice: ")
 while choice != "5":
     if choice == "1":
+          
           print("""
+
 
 """)
           choice = input("Enter your choice: ")
